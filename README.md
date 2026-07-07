@@ -145,7 +145,3 @@ Created automatically on `python manage.py migrate`.
 **Your own data:** Register at `/register` — no need to run `seed` again.
 
 ---
-
-## Screenshots
-
-_Add your screenshots here._
