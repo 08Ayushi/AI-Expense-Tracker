@@ -1,0 +1,91 @@
+:root {
+  --brand: #4f46e5;
+  --brand-dark: #4338ca;
+  --bg-soft: #f6f7fb;
+}
+
+body {
+  background-color: var(--bg-soft);
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+/* Landing hero */
+.hero {
+  background: linear-gradient(135deg, var(--brand), #7c3aed);
+  color: #fff;
+  border-radius: 1rem;
+  padding: 4rem 2rem;
+}
+
+.hero h1 {
+  font-weight: 800;
+}
+
+/* Stat cards */
+.stat-card {
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  transition: transform 0.15s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-3px);
+}
+
+.stat-card .stat-value {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.stat-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+/* Chart cards */
+.chart-card {
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+/* Generic card polish */
+.card {
+  border-radius: 1rem;
+}
+
+.auth-card {
+  max-width: 420px;
+  margin: 3rem auto;
+}
+
+.btn-brand {
+  background-color: var(--brand);
+  border-color: var(--brand);
+  color: #fff;
+}
+
+.btn-brand:hover {
+  background-color: var(--brand-dark);
+  border-color: var(--brand-dark);
+  color: #fff;
+}
+
+.text-brand {
+  color: var(--brand) !important;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
